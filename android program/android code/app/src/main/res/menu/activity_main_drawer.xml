@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_job_orders"
+            android:icon="@drawable/ic_menu_job_orders"
+            android:title="Your Job Requests" />
+        <item
+            android:id="@+id/nav_candidates"
+            android:icon="@drawable/ic_menu_candidates"
+            android:title="Candidates Found" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_menu_add"
+            android:title="Request a Job" />
+        <item
+            android:id="@+id/nav_personal_data"
+            android:icon="@drawable/ic_menu_edit"
+            android:title="Personal Data" />
+    </group>
+
+</menu>
